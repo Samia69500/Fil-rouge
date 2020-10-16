@@ -1,0 +1,68 @@
+#logo{
+   width: 90px;
+   height: 90px;
+}
+
+#navbar {
+    background-color: #52584E;
+}
+
+#image1{
+    width: 50%;
+    height: 50%;
+}
+
+#image2{
+    width: 50%;
+    height: 50%;
+}
+
+#combi{
+    width: 50%;
+    height: 50%;
+}
+
+#zen {
+    width: 50%;
+    height: 50%;
+}
+
+#orang{
+    width: 50%;
+    height: 50%;
+}
+
+#blan{
+    width: 50%;
+    height: 50%;
+}
+
+#beige{
+    width: 35%;
+    height: 35%;
+}
+
+#kaki{
+    width: 35%;
+    height: 35%;
+}
+
+#insta{
+    width:20%;
+    height: 20%;
+}
+
+#fb{
+    width:20%;
+    height: 20%;
+}
+
+#pint{
+    width:23%;
+    height: 23%;
+}
+
+#illu{
+    width:50%;
+    height: 50%;
+}
