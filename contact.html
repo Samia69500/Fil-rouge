@@ -9,6 +9,62 @@
 
 </head>
 <body>
+
+  <header>
+    <div class="collapse navbar-collapse" id="navbarsExample07">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Accueil</a> <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="galerie.html">Galerie</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">A propos<span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-md-0">
+        <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+      </form>
+    </div>
+  </div>
+  </nav>
+  
+  <nav class= "navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-xl">
+    <a class="navbar-brand" href="index.html"><img id="logo" src="LookideaLogo.jpg" alt="Logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07XL" aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarsExample07XL">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Accueil<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="galerie.html">Galerie</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="apropos.html">A propos<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-md-0">
+        <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+      </form>
+    </div>
+  </div>
+  </nav>
+  </header>
     
     <div class="center">
     <img id="insta" src="Instagram (3).png" alt="Instagram">
@@ -16,27 +72,34 @@
     <img id="pint" src="pinterest.png" alt="pinterest">
 </div>
 
+<form class="needs-validation " novalidate>
+  <div class="form-row ml-3">
+    <div class="col-md-5 ">
+      <label for="validationCustom01">Prénom</label>
+      <input type="text" class="form-control" id="validationCustom01" value="" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-6 mb-5">
+      <label for="validationCustom02">Nom</label>
+      <input type="text" class="form-control" id="validationCustom02" value="" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-11">
+      <label for="exampleFormControlTextarea1">Message</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+  </div>
+ 
 <div class="center">
-<form action="/ma-page-de-traitement" method="post">
-    <div>
-        <label for="name">Nom :</label>
-        <input type="text" id="name" name="user_name">
-    </div>
-    <div>
-        <label for="mail">e-mail :</label>
-        <input type="email" id="mail" name="user_mail">
-    </div>
-    <div>
-        <label for="msg">Message :</label>
-        <textarea id="msg" name="user_message"></textarea>
-    </div>
+  <button class="btn btn-primary mt-5" type="submit">Envoyer</button>
+</div>
 </form>
 
-<div class="button">
-    <button type="submit">Envoyer le message</button>
-</div>
 
-</div>
 
 
 
